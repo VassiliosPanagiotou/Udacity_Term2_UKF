@@ -25,7 +25,7 @@ VectorXd Tools::CalculateRMSE(const vector<VectorXd> &estimations,
 				//Summarize error squares
 				for (int d = 0; d<dim; d++)
 				{
-					rmse(d) = 0;
+					RMSE(d) = 0;
 				}
 				for (int s = 0; s<size; s++)
 				{
